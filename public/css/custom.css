@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.mainMenu:hover{
+	color:black !important;
+	background-color: white;
+}
+.chromeframe{
+	margin:0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
+}
+.carousel-caption{
+	color:black;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+.caption{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	text-align: right;
+	color: #fff;
+}
+
+p, h1 {
+	margin: 0;
+}
+h1{margin-bottom: 0.2em;}
+p{line-height: 1.333em;}
+
+#slide-3 .caption{
+	color: #47373f;
+}
+
+.jumbotron{
+	background-color: black;
+	color: white;
+}
+
+#slide-1 .caption{
+	left: 5%;
+	right: auto;
+}
+#slide-2 .caption{
+	left: 5%;
+	right: auto;
+}
+
+#slides-container{
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+}
+
+#slides{
+	width: 200%;
+	height: 200%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.slide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 50%;
+}
+#slide-4 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 53%;
+}
+
+#slide-2{
+	background: url("../../resource/convert.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+
+#slide-3{
+	background-color: white;
+	/*background: url("../../resource/concert-3.jpg") no-repeat center center;*/
+	background-size: cover;
+   -ms-transform: translate(0,74%); /* IE 9 */
+	-webkit-transform: translate(0,74%); /* Chrome, Safari, Opera */
+    transform: translate(0,74%);
+}
+
+
+#slide-4{
+	background-color: black;
+	/*background: url("../../resource/concert-3.jpg") no-repeat center center;*/
+	background-size: cover;
+	-ms-transform: translate(0%,164%); /* IE 9 */
+	-webkit-transform: translate(0%,164%); /* Chrome, Safari, Opera */
+    transform: translate(0%,164%);
+}
+
+
+
+#helper{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 550%;
+	width: 20px;
+}
+
+.marker{
+	height: 25%;
+	width: 100%;
+}
+
+/*.red{
+	background-color: red;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.yellow{
+	background-color: yellow
+}*/
+#navbar{
+
+background: rgba(76,76,76,1);
+background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 37%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(12%, rgba(89,89,89,1)), color-stop(25%, rgba(102,102,102,1)), color-stop(37%, rgba(71,71,71,1)), color-stop(41%, rgba(44,44,44,1)), color-stop(51%, rgba(0,0,0,1)), color-stop(60%, rgba(17,17,17,1)), color-stop(76%, rgba(43,43,43,1)), color-stop(91%, rgba(28,28,28,1)), color-stop(100%, rgba(19,19,19,1)));
+background: -webkit-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 37%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -o-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 37%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 37%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%, rgba(71,71,71,1) 37%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+}
+
+#contentdata{
+	-ms-transform: translate(0%,173%); /* IE 9 */
+	-webkit-transform: translate(0%,173%); /* Chrome, Safari, Opera */
+    transform: translate(0%,173%);	
+}
+
+#formBackground{
+	/*border: black solid;*/
+}
+
+#joinUsButton{
+	background-color: white;
+	/*background-color: #FDF33F;*/
+}
